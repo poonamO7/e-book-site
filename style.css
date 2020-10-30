@@ -19,6 +19,21 @@ body {
     src: url("assets/font-family/Gotham-Book_gdi.woff");
 }
 
+@font-face {
+    font-family: gotham-light;
+    src: url("assets/font-family/Gotham-Light_gdi.woff");
+}
+
+@font-face {
+    font-family: gotham-medium;
+    src: url("assets/font-family/Gotham-Medium_gdi.woff");
+}
+
+@font-face {
+    font-family: gotham-thin;
+    src: url("assets/font-family/Gotham-Thin_gdi.woff");
+}
+
 .img-bg {
     background-image: url("https://themes-pixeden.com/landing/ebook/assets/img/bg_1.jpg");
     background-color: rgb(40, 41, 45);
@@ -26,7 +41,7 @@ body {
     opacity: 1;
 }
 
-.container {
+.img-bg .container {
     transform: translate3d(0px, 58.3px, 0px) scale(1);
 }
 
@@ -67,6 +82,26 @@ h3 {
     font-family: gotham-black;
 }
 
+.text-bold {
+    font-family: gotham-bold;
+}
+
+.text-book {
+    font-family: gotham-book;
+}
+
+.text-light {
+    font-family: gotham-light;
+}
+
+.text-medium {
+    font-family: gotham-medium;
+}
+
+.text-thin {
+    font-family: gotham-thin;
+}
+
 .written-by {
     margin: 20px 0 0 4px;
 }
@@ -85,4 +120,89 @@ h3 {
 
 .yellow-light {
     color: #ecc28b;
+}
+
+.btn {
+    font-family: 'Gotham-Bold';
+    font-size: 21px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-color: #1e2124;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 0;
+    padding: .76em 2em;
+    line-height: 1;
+    color: #1e2124;
+    -webkit-transition: background-color .3s, color .3s;
+    transition: background-color .3s, color .3s;
+}
+
+.btn-white {
+    color: white;
+    border-color: white;
+}
+
+.btn-buy-now {
+    margin-left: 7px;
+    margin-top: 16px;
+}
+
+.f-39 {
+    font-size: 39px;
+}
+
+.f-56 {
+    font-size: 56px;
+}
+
+.mt-57 {
+    margin-top: 57px;
+}
+
+.second-section {
+    background-color: #1e2124;
+    color: white;
+}
+
+.f-21 {
+    font-size: 21px;
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-65 {
+    margin-top: 65px;
+}
+
+.f-48 {
+    font-size: 48px;
+}
+
+.text-normalcase {
+    text-transform: none;
+}
+
+.mt-55 {
+    margin-top: 55px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.ebook-features .media-left {
+    padding-right: 37px;
+    padding-top: 21px;
+}
+
+.media-body {
+    display: table-cell;
+    vertical-align: top;
 }
