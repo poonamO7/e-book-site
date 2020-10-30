@@ -1,0 +1,88 @@
+body {
+    font-family: "Gotham-Book";
+    font-size: 18px;
+    line-height: 1.66;
+}
+
+@font-face {
+    font-family: gotham-black;
+    src: url("assets/font-family/Gotham-Black_gdi.woff");
+  }
+
+@font-face {
+    font-family: gotham-bold;
+    src: url("assets/font-family/Gotham-Bold_gdi.woff");
+} 
+
+@font-face {
+    font-family: gotham-book;
+    src: url("assets/font-family/Gotham-Book_gdi.woff");
+}
+
+.img-bg {
+    background-image: url("https://themes-pixeden.com/landing/ebook/assets/img/bg_1.jpg");
+    background-color: rgb(40, 41, 45);
+    background-blend-mode: multiply;
+    opacity: 1;
+}
+
+.container {
+    transform: translate3d(0px, 58.3px, 0px) scale(1);
+}
+
+.i-left {
+    width: 100%;
+    height: 525px;
+    background-color: #2e3037;
+    text-align: center;
+}
+
+.top-right {
+    padding-left: 50px;
+    padding-top: 30px;
+    position: relative;
+    z-index: 1000;
+}
+
+.top-right h1 {
+    font-size: 96px;
+    line-height: .87;
+    letter-spacing: -1.5px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+.pt-120 {
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.color-light-blue {
+    color: #a0d7e3;
+}
+
+.text-black {
+    font-family: gotham-black;
+}
+
+.written-by {
+    margin: 20px 0 0 4px;
+}
+
+.f-28 {
+    font-size: 28px;
+}
+
+.book-title {
+    margin-left: 3px;
+}
+
+.pt-17 {
+    padding-top: 17rem;
+}
+
+.yellow-light {
+    color: #ecc28b;
+}
