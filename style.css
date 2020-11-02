@@ -401,6 +401,15 @@ h4{
     background-color: rgb(30, 33, 36)!important;
     /* opacity: 0.6; */
 }
+.mln-15 {
+    margin-left: -15rem;
+}
+a#b-prev {
+    display: flex;
+}
+.w-34 {
+    width: 34rem;
+}
 
 @media(max-width: 723px) {
     .i-left {
@@ -478,6 +487,14 @@ h4{
     .i-left {
         height: 265px;
         width: auto;
+    }
+}
+@media(max-width: 990px) {
+    .mln-15 {
+        margin-left: 0;
+    }
+    a#b-prev {
+        display: block;
     }
 }
 
