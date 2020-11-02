@@ -410,6 +410,9 @@ a#b-prev {
 .w-34 {
     width: 34rem;
 }
+a.carousel-control-prev, a.carousel-control-next {
+    margin: -8rem;
+}
 
 @media(max-width: 723px) {
     .i-left {
@@ -468,6 +471,13 @@ a#b-prev {
     .top-55 {
         top: 55%;
     } 
+    a.carousel-control-prev, a.carousel-control-next {
+        margin: 0rem;
+    }
+    .ebook-quote {
+        padding: 0 5rem 3rem;
+        font-size: 18px;
+    }
 }
 
 @media(max-width: 1024px) {
@@ -496,5 +506,19 @@ a#b-prev {
     a#b-prev {
         display: block;
     }
+    .ebook-quote {
+        padding: 0 5rem 3rem;
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 1349px) {
+    a.nav-link {
+        padding: 8px 2rem !important;
+        vertical-align: middle;
+    }
+    a:hover .nav-label{
+        opacity: 0; 
+     }
 }
 
