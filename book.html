@@ -248,15 +248,15 @@
                     <form>
                         <div class="form-inline mb-15 d-flex justify-content-center">
                           <div class="form-group">
-                            <input id="inputName" class="inputStyle mr-5 mbt-2 " type="text" class="form-control">
-                            <label for="inputName" class="lblStyle top-31">Your Name</label>
+                            <input id="inputName" class="inputStyle mr-5 mbt-2" type="text" class="form-control">
+                            <label id="inputNamelbl" for="inputName" class="lblStyle top-31">Your Name</label>
                           </div>
                           <div class="form-group">
                             <input id="inputEmail" class="inputStyle mbt-2 " type="text" class="form-control">
                             <label for="inputEmail" class="lblStyle top-55">Your Email</label>
                           </div>
                         </div>
-                        <button type="submit" class="btn btn-outline-light text-uppercase btn-white btn-buy-now my-4"> <i class="pe-mi-notepad-2 mr2"></i> Join</button>
+                        <button type="button" class="btn btn-outline-light text-uppercase btn-white btn-buy-now my-4"> <i class="pe-mi-notepad-2 mr2"></i> Join</button>
                       </form>
                 </div>
             </div>
@@ -296,19 +296,19 @@
                     <h4 class="text-white h-underlined fz-29 pt-5 mb-5 col-md-6">Wanna get Books from Collection</h4>
                     <!-- <h1 class="text-center py-3">Register here!</h1> -->
                     <!-- <div class="col-md-12 d-flex pt-2"> -->
-                        <input type="text" class="reg-input col-md-6 col-sm-6" id="fname" name="fname" value="" placeholder="Full Name">
+                        <input type="text" id="fullName" class="reg-input col-md-6 col-sm-6" name="fname" value="" placeholder="Full Name">
                     <!-- </div> -->
                     <!-- <div class="col-md-12 d-flex pt-2"> -->
-                        <input type="text" class="reg-input col-md-6 col-sm-6" id="uname" name="uname" value="" placeholder="User Name"><br>
+                        <input type="text" id="userName" class="reg-input col-md-6 col-sm-6" name="uname" value="" placeholder="User Name"><br>
                     <!-- </div> -->
                     <!-- <div class="col-md-12 d-flex pt-2"> -->
-                        <input type="email" class="reg-input col-md-6 col-sm-6" id="email" name="email" value="" placeholder="Email">
+                        <input type="email" id="email" class="reg-input col-md-6 col-sm-6" name="email" value="" placeholder="Email">
                     <!-- </div>
                     <div class="col-md-12 d-flex pt-2"> -->
-                        <input type="text" class="reg-input col-md-6 col-sm-6" id="password" name="password" value="" placeholder="Password"><br>
+                        <input type="text" id="password" class="reg-input col-md-6 col-sm-6" name="password" value="" placeholder="Password"><br>
                     <!-- </div>
                     <div class="col-md-12 d-flex pt-2"> -->
-                        <button class="btn mt-50 btn-dark">sign up</button>
+                        <button class="btn mt-50 btn-dark" onclick="signUp()">sign up</button>
                     <!-- </div> -->
                 </form>
                 </div>
@@ -348,6 +348,7 @@
                   </div>
             </div>
           </section>
+          <script src="app.js"></script>
 </body>
 
 </html>
