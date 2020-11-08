@@ -1,7 +1,7 @@
 # e-book-site
 ========
 
-e-book-site is online book store where you can get an amazing stock of books to read online.
+e-book-site is an online book store where you can get an amazing stock of books to read online.
 
 Look how easy it is to use:
     
@@ -22,10 +22,10 @@ Installation
 Install e-book-site by running:
 
     For Developers 
-    # Make sure to install good editor. 
-    # Recomended : Visual Studio Code (Standard Version).
+    # Make sure to install a good editor. 
+    # Recommended : Visual Studio Code (Standard Version).
     # Clone to this project. Here is the link https://github.com/poonamO7/e-book-site.git
-    # Run the application in the browser (recomended : Chrome).
+    # Run the application in the browser (recommended : Chrome).
 
 Contribute
 ----------
