@@ -6,7 +6,7 @@ e-book-site is online book store where you can get an amazing stock of books to 
 Look how easy it is to use:
     
     For Customers
-    # Go to link dummy and get access to this link
+    # Your site is ready to be published at https://poonamo7.github.io/e-book-site/.
 
 Features
 --------
