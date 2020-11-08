@@ -1,6 +1,4 @@
 # e-book-site
-
-$e-book-site
 ========
 
 $e-book-site is online book store where you can get an amazing stock of books to read online.
@@ -21,17 +19,17 @@ Features
 Installation
 ------------
 
-Install $e-book-site by running:
+Install e-book-site by running:
 
     For Developers 
     # Make sure to install good editor. 
     # Recomended : Visual Studio Code (Standard Version).
-    # Clone to this project.
+    # Clone to this project. Here is the link https://github.com/poonamO7/e-book-site.git
     # Run the application in the browser (recomended : Chrome).
 
 Contribute
 ----------
-- Source Code: github.com/$project/$project
+- Source Code: https://github.com/poonamO7/e-book-site.git
 
 Support
 -------
