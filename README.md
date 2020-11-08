@@ -1,7 +1,7 @@
 # e-book-site
 ========
 
-$e-book-site is online book store where you can get an amazing stock of books to read online.
+e-book-site is online book store where you can get an amazing stock of books to read online.
 
 Look how easy it is to use:
     
